@@ -1,4 +1,4 @@
-```java id="ex002"
+
 package exception;
 
 public class ResourceLoadException extends Exception {
@@ -7,4 +7,3 @@ public class ResourceLoadException extends Exception {
         super(message);
     }
 }
-```

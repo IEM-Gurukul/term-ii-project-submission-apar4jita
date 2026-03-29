@@ -1,4 +1,4 @@
-```java
+
 package app;
 
 import service.QuizEngine;
@@ -15,7 +15,7 @@ public class QuizApplication {
     public static void main(String[] args) {
 
         System.out.println("======================================");
-        System.out.println("     Welcome to QuizMaster Pro 🚀     ");
+        System.out.println("     Welcome to QuizMaster Pro     ");
         System.out.println("======================================");
 
         try {
@@ -45,7 +45,7 @@ public class QuizApplication {
         }
 
         System.out.println("======================================");
-        System.out.println("       Thank you for using QuizMaster Pro 🙏");
+        System.out.println("       Thank you for using QuizMaster Pro ");
         System.out.println("======================================");
     }
 }

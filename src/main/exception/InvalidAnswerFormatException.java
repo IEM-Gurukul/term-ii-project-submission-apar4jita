@@ -1,4 +1,4 @@
-```java id="ex001"
+
 package exception;
 
 public class InvalidAnswerFormatException extends Exception {
@@ -7,4 +7,4 @@ public class InvalidAnswerFormatException extends Exception {
         super(message);
     }
 }
-```
+

@@ -1,4 +1,4 @@
-```java id="6q8xpf"
+
 package ui;
 
 import service.QuizEngine;
@@ -39,10 +39,10 @@ public class ConsoleUI {
             String userAnswer = scanner.nextLine();
 
             if (engine.evaluateAnswer(q, userAnswer)) {
-                System.out.println("✅ Correct!\n");
+                System.out.println("Correct!\n");
                 score += q.getMarks();
             } else {
-                System.out.println("❌ Wrong! Correct Answer: " + q.getCorrectAnswer() + "\n");
+                System.out.println(" Wrong! Correct Answer: " + q.getCorrectAnswer() + "\n");
             }
         }
 
@@ -55,4 +55,4 @@ public class ConsoleUI {
         System.out.println("Result saved successfully!");
     }
 }
-```
+

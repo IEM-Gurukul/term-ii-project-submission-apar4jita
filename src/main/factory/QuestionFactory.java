@@ -1,4 +1,4 @@
-```java id="fact001"
+
 package factory;
 
 import model.AbstractQuestion;
@@ -27,4 +27,4 @@ public class QuestionFactory {
         }
     }
 }
-```
+

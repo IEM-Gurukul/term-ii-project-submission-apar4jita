@@ -1,4 +1,4 @@
-```java id="engine001"
+
 package service;
 
 import model.AbstractQuestion;
@@ -29,4 +29,4 @@ public class QuizEngine {
         return total;
     }
 }
-```
+

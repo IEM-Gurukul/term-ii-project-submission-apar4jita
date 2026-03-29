@@ -1,4 +1,4 @@
-```java id="repo002"
+
 package repository;
 
 import java.io.FileWriter;
@@ -20,4 +20,4 @@ public class ResultRepository {
         }
     }
 }
-```
+

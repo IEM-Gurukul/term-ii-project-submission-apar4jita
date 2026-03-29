@@ -1,4 +1,4 @@
-```java id="repo001"
+
 package repository;
 
 import factory.QuestionFactory;
@@ -44,4 +44,4 @@ public class QuestionRepository {
         return questions;
     }
 }
-```
+

@@ -1,4 +1,4 @@
-```java id="mcq001"
+
 package model;
 
 import java.util.List;
@@ -12,7 +12,7 @@ public class MCQuestion extends AbstractQuestion {
         this.options = options;
     }
 
-    @Override
+   
     public void displayQuestion() {
         System.out.println(questionText);
         char optionLabel = 'A';
@@ -23,9 +23,9 @@ public class MCQuestion extends AbstractQuestion {
         }
     }
 
-    @Override
+   
     public boolean checkAnswer(String userAnswer) {
         return userAnswer.equalsIgnoreCase(correctAnswer);
     }
 }
-```
+

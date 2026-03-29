@@ -1,4 +1,4 @@
-```java id="timer001"
+
 package service;
 
 public class TimerService implements Runnable {
@@ -11,7 +11,7 @@ public class TimerService implements Runnable {
         this.timeUp = false;
     }
 
-    @Override
+    
     public void run() {
         try {
             while (timeLimit > 0) {
@@ -20,7 +20,7 @@ public class TimerService implements Runnable {
                 timeLimit--;
             }
             timeUp = true;
-            System.out.println("\n⏰ Time's up! Auto-submitting quiz...");
+            System.out.println("\n Time's up! Auto-submitting quiz...");
         } catch (InterruptedException e) {
             System.out.println("Timer interrupted.");
         }
@@ -30,4 +30,3 @@ public class TimerService implements Runnable {
         return timeUp;
     }
 }
-```

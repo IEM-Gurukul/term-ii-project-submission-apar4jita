@@ -1,4 +1,4 @@
-```java id="abq001"
+
 package model;
 
 public abstract class AbstractQuestion {
@@ -28,4 +28,4 @@ public abstract class AbstractQuestion {
         return questionText;
     }
 }
-```
+

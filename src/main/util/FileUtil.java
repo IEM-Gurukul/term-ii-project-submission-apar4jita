@@ -1,4 +1,4 @@
-```java id="util001"
+
 package util;
 
 import java.io.BufferedReader;
@@ -22,4 +22,4 @@ public class FileUtil {
         }
     }
 }
-```
+
