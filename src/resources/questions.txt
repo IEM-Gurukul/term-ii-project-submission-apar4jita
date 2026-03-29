@@ -1,0 +1,15 @@
+
+
+MCQ,What is Java?,OOP Language|Operating System|Database|Compiler,A,2
+MCQ,Which of the following is not a programming language?,HTML|Java|Python|C++,A,2
+MCQ,Which keyword is used for inheritance in Java?,extends|implements|inherits|super,A,2
+MCQ,Which of these is a Java feature?,Object-Oriented|Platform Dependent|Low Security|Manual Memory,A,2
+MCQ,Which method is the entry point of Java program?,start()|main()|run()|init(),B,2
+MCQ,Which collection allows duplicates?,Set|List|Map|None,B,2
+
+BOOLEAN,Java is platform independent?,,True,1
+BOOLEAN,Python is a statically typed language?,,False,1
+BOOLEAN,Java supports multiple inheritance using classes?,,False,1
+BOOLEAN,ArrayList is part of Java Collections Framework?,,True,1
+
+

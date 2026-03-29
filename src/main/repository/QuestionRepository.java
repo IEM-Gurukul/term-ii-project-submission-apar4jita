@@ -22,8 +22,9 @@ public class QuestionRepository {
 
             while ((line = br.readLine()) != null) {
 
-                // Format: type,question,options,answer,marks
                 String[] parts = line.split(",");
+
+                if (parts.length < 5) continue;
 
                 String type = parts[0];
                 String questionText = parts[1];
